@@ -56,7 +56,7 @@ for(let i=0; i<worker.length; i++){
     let role = `<p>${worker[i].role}</p>`;
     let image = `<img src="${worker[i].image}">`;
 
-    card.innerHTML = image + name + "<br>" + role;
+    card.innerHTML = image + name + role;
     div.appendChild(card);
 
     worker_card.appendChild(div);
