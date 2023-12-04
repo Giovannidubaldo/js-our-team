@@ -1,4 +1,5 @@
 // MILESTONE 1
+// Creato un array di objects contenti i dipendenti con le loro informazioni
 let worker = [
     {
        'name' : 'Wayne Barnett',
@@ -33,3 +34,12 @@ let worker = [
 ]
 
 console.log(worker)
+
+// MILESTONE 2
+// Stampato in console.log tutte le informazioni di ciascun dipendente
+for(let i=0; i<worker.length; i++){
+    console.log(worker[i])
+    for(let key in worker[i]){
+        console.log(worker[i][key])
+    }
+}
