@@ -52,7 +52,7 @@ for(let i=0; i<worker.length; i++){
     card.classList.add('card');
     card.classList.add('text-center');
 
-    let name = `<p>${worker[i].name}</p>`;
+    let name = `<p class="mt-2">${worker[i].name}</p>`;
     let role = `<p>${worker[i].role}</p>`;
     let image = `<img src="${worker[i].image}">`;
 
